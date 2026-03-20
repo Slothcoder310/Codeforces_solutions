@@ -1,0 +1,1 @@
+test = int(input()) for _ in range(test):    lst = list(input().split())     first = lst[0]    second = lst[1]     lst[0] = second[0] + first[1:]    lst[1] = first[0] + second[1:]     print(lst[0] + " " + lst[1])
