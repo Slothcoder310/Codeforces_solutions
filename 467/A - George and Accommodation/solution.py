@@ -1,0 +1,1 @@
+rows = int(input())can_stay = 0 for _ in range(rows):    ppl, limit = map(int, input().split())     if limit - ppl >= 2:        can_stay += 1 print(can_stay)
