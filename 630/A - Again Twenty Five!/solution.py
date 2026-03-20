@@ -1,0 +1,1 @@
+expo = int(input()) if expo == 1:    print(5)elif expo == 0:    print(1)else:    print(25)
