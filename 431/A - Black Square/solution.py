@@ -1,0 +1,1 @@
+cal = list(map(int, input().split())) square = input() total = 0 for ch in square:    total += cal[int(ch) - 1] print(total)
