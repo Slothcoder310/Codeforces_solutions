@@ -1,0 +1,1 @@
+test = int(input()) for _ in range(test):    tim, first, second, third = map(int, input().split())     check = 0     if tim < first:        check += 1    if tim < second:        check += 1    if tim < third:        check += 1     print(check)
