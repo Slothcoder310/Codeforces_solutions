@@ -1,0 +1,1 @@
+first, second = map(int, input().split()) turns = 0 while True:    if first > second:        break    else:        first = first * 3        second = second * 2         turns += 1 print(turns)
