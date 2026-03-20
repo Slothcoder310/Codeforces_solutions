@@ -1,0 +1,1 @@
+test = int(input()) for _ in range(test):    size = int(input())    name = sorted(input())    check = sorted('Timur')     if size != 5:        print("NO")    else:        if name == check:            print("YES")        else:            print("NO")
