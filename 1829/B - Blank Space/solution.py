@@ -1,0 +1,1 @@
+test = int(input()) for _ in range(test):    n = int(input())    arr = list(map(int, input().split()))     max_count = 0    current_count = 0     for i in arr:        if i == 0:            current_count += 1            max_count = max(max_count, current_count)        else:            current_count = 0     print(max_count)
