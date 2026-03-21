@@ -1,0 +1,1 @@
+test = int(input()) for _ in range(test):    word = input()    count = 0    count_b = 0     for i in word:        if i == 'A':            count += 1        else:            count_b += 1     if count > count_b:        print("A")    else:        print("B")
