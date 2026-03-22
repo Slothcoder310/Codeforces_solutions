@@ -1,0 +1,1 @@
+num_magnet = int(input()) group = 1prev = input() for _ in range(num_magnet - 1):    curr = input()     if curr != prev:        group += 1        prev = curr print(group)
