@@ -1,0 +1,1 @@
+test = int(input()) for _ in range(test):    lst = list(map(int, input().split()))     lst = sorted(lst)     print(lst[1])
