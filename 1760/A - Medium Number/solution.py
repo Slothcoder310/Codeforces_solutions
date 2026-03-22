@@ -1,1 +1,1 @@
-test = int(input()) for _ in range(test):    lst = list(map(int, input().split()))     lst = sorted(lst)     print(lst[1])
+test = int(input()) for _ in range(test):    first, second, third = map(int, input().split())     print((first + second + third) - max(first, second, third) - min(first, second , third))
