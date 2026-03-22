@@ -1,0 +1,1 @@
+num = int(input()) lst = list(map(int, input().split())) print(f"{sum(lst) / num:.12f}")
