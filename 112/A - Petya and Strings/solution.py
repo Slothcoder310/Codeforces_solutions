@@ -1,0 +1,1 @@
+first_str: str = input().lower()second_str: str = input().lower()  if first_str == second_str:    print("0")else:    for first_char, second_char in zip(first_str, second_str):        if first_char > second_char:            print("1")            break        elif first_char < second_char:            print("-1")            break
